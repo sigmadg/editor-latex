@@ -9,10 +9,7 @@ function MathCharacter() {
   const [anchorEl, setAnchorEl] = useState(null); // Define anchorEl state
   const [open, setOpen] = useState(false); // Define open state
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-    setOpen(true);
-  };
+
 
   const handleClose = () => {
     setAnchorEl(null);
