@@ -9,8 +9,6 @@ function MathCharacter() {
   const [anchorEl, setAnchorEl] = useState(null); // Define anchorEl state
   const [open, setOpen] = useState(false); // Define open state
 
-
-
   const handleClose = () => {
     setAnchorEl(null);
     setOpen(false);
